@@ -19,7 +19,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login Imam'),
+        title: const Text('Login Bagus'),
       ),
       body: SingleChildScrollView(
         child: Padding(
