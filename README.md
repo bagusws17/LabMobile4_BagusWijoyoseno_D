@@ -37,7 +37,7 @@ Sebelum menjalankan aplikasi, pastikan Anda telah melakukan langkah-langkah beri
 
 ### a. Mengisi Form Login
 
-![Screenshot form login](docs/login_page.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/login_page.png'  height="500">
 
 Pengguna diminta untuk memasukkan email dan password pada form login.
 
@@ -76,7 +76,7 @@ Widget _passwordTextField() {
 
 ### b. Proses Autentikasi
 
-![Screenshot proses login](docs/login_proses.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/login_proses.png'  height="500">
 
 Setelah menekan tombol login, aplikasi akan mengirim permintaan ke API untuk melakukan autentikasi.
 
@@ -138,11 +138,11 @@ void _submit() {
 
 ### c. Hasil Login
 
-![Screenshot popup berhasil login](docs/login_berhasil.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/login_berhasil.png'  height="500">
 
 Setelah proses autentikasi, pengguna akan melihat popup yang menginformasikan hasil login jika berhasil.
 
-![Screenshot popup berhasil login](docs/login_failed.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/login_failed.png'  height="500">
 
 Setelah proses autentikasi, pengguna akan melihat popup yang menginformasikan hasil login jika gagal.
 
@@ -150,7 +150,7 @@ Setelah proses autentikasi, pengguna akan melihat popup yang menginformasikan ha
 
 ### a. Mengisi Form Registrasi
 
-![Screenshot form registrasi](docs/registrasi_page.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/registrasi_page.png'  height="500">
 
 Pengguna diminta untuk mengisi nama, email, password, dan konfirmasi password.
 
@@ -176,7 +176,7 @@ Widget _namaTextField() {
 
 ### b. Proses Pengiriman Data Registrasi
 
-![Screenshot proses registrasi](docs/registrasi_proses.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/registrasi_proses.png'  height="500">
 
 Setelah menekan tombol registrasi, aplikasi akan mengirim data ke API.
 
@@ -231,7 +231,7 @@ void _submit() {
 
 ### c. Hasil Registrasi
 
-![Screenshot popup berhasil registrasi](docs/registrasi_berhasil.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/registrasi_berhasil.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil registrasi.
 
@@ -239,7 +239,7 @@ Pengguna akan melihat popup yang menginformasikan hasil registrasi.
 
 ### a. Halaman Utama Produk
 
-![Screenshot halaman daftar produk](docs/produk_page.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/produk_page.png'  height="500">
 
 Setelah login berhasil, pengguna akan diarahkan ke halaman utama yang menampilkan daftar produk.
 
@@ -314,7 +314,7 @@ class ProdukBloc {
 
 ### a. Membuka Form Tambah Produk
 
-![Screenshot form tambah produk](docs/tambah_produk.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/tambah_produk.png'  height="500">
 Pengguna dapat menambah produk baru dengan menekan ikon "+" di halaman utama.
 
 ### b. Mengisi Data Produk Baru
@@ -343,7 +343,7 @@ Widget _kodeProdukTextField() {
 
 ### c. Proses Penyimpanan Produk Baru
 
-![Screenshot proses tambah produk](docs/tambah_produk.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/tambah_produk.png'  height="500">
 
 Setelah menekan tombol simpan, aplikasi akan mengirim data ke API.
 
@@ -399,7 +399,7 @@ simpan() {
 
 ### d. Hasil Penambahan Produk
 
-![Screenshot popup berhasil tambah produk](docs/tambah_produk_berhasil.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/tambah_produk_berhasil.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil penambahan produk.
 
@@ -413,7 +413,7 @@ Pengguna dapat melihat detail produk dengan menekan item produk di daftar.
 
 ### b. Halaman Detail Produk
 
-![Screenshot halaman detail produk](docs/detail_produk.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/detail_produk.png'  height="500">
 
 Halaman ini menampilkan informasi lengkap tentang produk yang dipilih.
 
@@ -464,7 +464,7 @@ class _ProdukDetailState extends State<ProdukDetail> {
 
 ### a. Membuka Form Ubah Produk
 
-![Screenshot form ubah produk](docs/ubah.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/ubah.png'  height="500">
 
 Dari halaman detail produk, pengguna dapat menekan tombol "EDIT" untuk membuka form ubah produk.
 
@@ -474,7 +474,7 @@ Form ubah produk akan terisi dengan data produk yang ada, dan pengguna dapat men
 
 ### c. Proses Penyimpanan Perubahan
 
-![Screenshot proses ubah produk](docs/ubah.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/ubah.png'  height="500">
 
 Setelah menekan tombol ubah, aplikasi akan mengirim data perubahan ke API.
 
@@ -519,7 +519,7 @@ ubah() {
 
 ### d. Hasil Perubahan Produk
 
-![Screenshot popup berhasil ubah produk](docs/ubah_berhasil.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/ubah_berhasil.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil perubahan produk.
 
@@ -531,7 +531,7 @@ Dari halaman detail produk, pengguna dapat menekan tombol "DELETE" untuk menghap
 
 ### b. Konfirmasi Penghapusan
 
-![Screenshot dialog konfirmasi hapus](docs/hapus_konfirmasi.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/hapus_konfirmasi.png'  height="500">
 
 Sebelum menghapus, aplikasi akan menampilkan dialog konfirmasi.
 
@@ -597,7 +597,7 @@ onPressed: () async {
 
 ### d. Hasil Penghapusan Produk
 
-![Screenshot popup berhasil hapus produk](docs/hapus_berhasil.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/hapus_berhasil.png'  height="500">
 
 Pengguna akan melihat popup yang menginformasikan hasil penghapusan produk.
 
@@ -605,7 +605,7 @@ Pengguna akan melihat popup yang menginformasikan hasil penghapusan produk.
 
 ### a. Memilih Menu Logout
 
-![Screenshot drawer dengan menu logout](docs/logout.png)
+<img src='https://github.com/bagusws17/LabMobile4_BagusWijoyoseno_D/blob/main/docs/logout.png'  height="500">
 
 Pengguna dapat mengakses menu logout dari drawer aplikasi.
 
